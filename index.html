@@ -1,1 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>English Tutor</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="manifest" href="manifest.json">
+  <script defer src="lessons.js"></script>
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <h1>English Tutor</h1>
+    <button id="installBtn" hidden>Install App</button>
+  </header>
+
+  <main>
+    <section id="lesson-section">
+      <h2>Lesson</h2>
+      <div id="lesson-content"></div>
+      <button id="next-lesson">Next Lesson</button>
+    </section>
+
+    <section id="dialogue-section">
+      <h2>Dialogue Practice</h2>
+      <div id="dialogue-content"></div>
+      <input id="user-response" placeholder="Your answer..."/>
+      <button id="check-response">Check</button>
+      <p id="feedback"></p>
+    </section>
+  </main>
+</body>
+</html>
 
